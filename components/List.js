@@ -1,3 +1,5 @@
+'use client';
+
 import NavResize from './navResize';
 import Link from 'next/link';
 

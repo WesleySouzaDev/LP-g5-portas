@@ -15,9 +15,7 @@ const Layout = ({ children }) => {
           <WhatsButton />
         </div>
       </header>
-      <main className="w-screen h-screen relative overflow-hidden">
-        {children}
-      </main>
+      <main className="h-screen relative">{children}</main>
     </>
   );
 };

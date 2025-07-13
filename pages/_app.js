@@ -1,3 +1,5 @@
+'use client';
+
 import '../styles/globals.css';
 //compenents
 import Layout from '../components/Layout';
@@ -13,8 +15,8 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <AnimatePresence mode="wait">
         <motion.div key={router.route} className="h-full">
-          <Transition />
           <Component {...pageProps} />
+          <Transition />
         </motion.div>
       </AnimatePresence>
     </Layout>

@@ -1,3 +1,5 @@
+'use client';
+
 import { TbBrandWhatsapp } from 'react-icons/tb';
 import { useState, useEffect } from 'react';
 

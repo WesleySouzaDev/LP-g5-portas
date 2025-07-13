@@ -1,3 +1,5 @@
+'use client';
+
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoMdClose } from 'react-icons/io';
 import { AnimatePresence, motion } from 'motion/react';

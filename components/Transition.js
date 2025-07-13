@@ -1,3 +1,5 @@
+'use client';
+
 //framer motion
 import { motion } from 'motion/react';
 

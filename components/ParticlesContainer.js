@@ -1,3 +1,5 @@
+'use client';
+
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import React, { useCallback } from 'react';
@@ -46,7 +48,7 @@ const ParticlesContainer = () => {
             },
             modes: {
               push: {
-                quantity: 150,
+                quantity: 100,
               },
               repulse: {
                 distance: 100,
